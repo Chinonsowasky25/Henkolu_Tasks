@@ -33,6 +33,7 @@ microk8s add-node
 
 #Nginx Deployment
 ![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_5_Kubernetes/Screenshot%202025-04-05%20131336.png?raw=true)
+![Screenshot 2025-04-05 131336](https://github.com/user-attachments/assets/66313cbc-b34c-4e57-a27f-d18ad4239595)
 
 ubuntu@master:~$ cat nginx-deployment.yaml
 apiVersion: apps/v1
