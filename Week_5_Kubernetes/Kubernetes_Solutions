@@ -19,3 +19,16 @@ Set up a MicroK8s cluster with one master and one worker node using Multipass. D
 ```bash
 multipass launch --name master --cpus 2 --mem 2G --disk 10G
 multipass launch --name worker --cpus 2 --mem 2G --disk 10G
+
+#Install MicroK8s on Both VMs
+sudo snap install microk8s --classic
+sudo usermod -a -G microk8s $USER
+sudo chown -f -R $USER ~/.kube
+
+Enable MicroK8s Add-ons on Master
+microk8s enable dns storage ingress
+
+#Join Worker to Master
+microk8s add-node
+
+#Nginx Deployment
