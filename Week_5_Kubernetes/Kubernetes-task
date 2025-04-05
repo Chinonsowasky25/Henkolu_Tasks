@@ -1,0 +1,1 @@
+create a two node Microk8s cluster and deploy an Nginx Deployment and expose using a NodePort Service using the resource yaml files.
