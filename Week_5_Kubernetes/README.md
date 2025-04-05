@@ -32,6 +32,8 @@ microk8s enable dns storage ingress
 microk8s add-node
 
 #Nginx Deployment
+![Alt text](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_5_Kubernetes/Screenshot%202025-04-05%20131336.png?raw=true)
+
 ubuntu@master:~$ cat nginx-deployment.yaml
 apiVersion: apps/v1
 kind: Deployment
