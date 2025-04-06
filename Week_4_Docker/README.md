@@ -1,7 +1,7 @@
 ## Checking the Docker version
 After Installing Docker and checking the docker version with docker --version
 
-![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_4_Docker/Screenshot%202025-03-29%20115310.png?raw=true)
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_4_Docker/Screenshot%202025-03-29%20112202.png?raw=true)
 
 Run Hello-world and explain the output
 
