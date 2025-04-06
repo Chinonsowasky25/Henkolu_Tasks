@@ -1,1 +1,29 @@
+## Basic Linux Commands
 
+List the files and directories in the current working directory.
+Create a new directory called linux_practice.
+Navigate into the linux_practice directory and create an empty file named test.txt.
+Display the current working directory.
+View the contents of /etc/passwd using the cat command.
+
+## File and Directory Management
+
+Create three files (file1.txt, file2.txt, file3.txt) in the linux_practice directory.
+Move file1.txt into a new subdirectory named subdir.
+Rename file2.txt to renamed_file2.txt.
+Copy file3.txt to the parent directory.
+Delete renamed_file2.txt and the subdir directory.
+
+## Setting Up SSH
+
+Generate an SSH key pair on their local machine.
+Display the contents of the public key file (~/.ssh/id_rsa.pub).
+Add the public key to an online service (e.g., GitHub or a server).
+Logging into a Remote Server
+Use SSH to log into a provided remote server (or a simulated local SSH setup).
+Create a directory named remote_practice on the remote server.
+
+## Transferring Files with SCP
+
+Transfer a file named example.txt from their local machine to the remote server.
+Retrieve the same file back from the remote server.
