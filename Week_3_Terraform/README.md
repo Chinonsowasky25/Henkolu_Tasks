@@ -29,14 +29,14 @@ On the terminal:
 aws configure
 
 .
-- InstD.tf           # Instance data for the main entry point or an additional configuration
-- variables.tf      # Input variables
-- outputs.tf        # Output values (e.g., IP addresses)
+- InstD.tf           #   Instance data for the main entry point or an additional configuration
+- variables.tf      #  Input variables
+- outputs.tf        #   Output values (e.g., IP addresses)
 - keypair.tf     # Generates an SSH key pair and saves the private key locally.
 - SecGrp.tf     # Creates security groups (firewall rules)
 - providers.tf  # Sets up the AWS provider – tells Terraform which cloud and region to use.
-- Instance.tf  #Launches two EC2 instances: one in the public subnet, one in the private subnet.
-- vpc.tf      # Creates the VPC, public & private subnets, internet gateway, and route tables.
+- Instance.tf  #  Launches two EC2 instances: one in the public subnet, one in the private subnet.
+- vpc.tf      #   Creates the VPC, public & private subnets, internet gateway, and route tables.
 - .gitignore  # 	Ignores sensitive or temporary files like the private key.
 - README.md         # Project documentation
 
@@ -49,7 +49,7 @@ After writing the scripts for the deployment
 - terraform plan
 - terraform apply
 
-![image alt]
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/21899e4ba657832b6111d1e9cdb0731bb888d253/Week_3_Terraform/Screenshot%202025-04-06%20232147.png)
 
 Checking the aws console
 
