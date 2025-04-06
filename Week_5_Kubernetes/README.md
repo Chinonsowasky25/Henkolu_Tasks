@@ -46,4 +46,5 @@ Find the node's internal IP:
 then open the browser
 http://172.21.230.112:30007/
 you should see a welcome nginx page
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_5_Kubernetes/Screenshot%20(65).png?raw=true)
 
