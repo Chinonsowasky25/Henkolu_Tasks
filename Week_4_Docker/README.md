@@ -1,6 +1,6 @@
 ## Checking the Docker version
 After Installing Docker and checking the docker version with docker --version
-
+![image alt]()
 
 Run Hello-world and explain the output
 
