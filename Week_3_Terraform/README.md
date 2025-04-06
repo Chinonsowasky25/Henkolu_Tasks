@@ -53,6 +53,6 @@ After writing the scripts for the deployment
 
 Checking the aws console
 
-![image alt]
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/13a69f5638e2c1f2fef9b2680ee7ac4c7df016f0/Week_3_Terraform/Screenshot%202025-04-06%20233508.png)
 
 
