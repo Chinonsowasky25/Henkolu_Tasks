@@ -29,26 +29,30 @@ On the terminal:
 aws configure
 
 .
-├── InstD.tf           # Instance data for the main entry point or an additional configuration
-├── variables.tf      # Input variables
-├── outputs.tf        # Output values (e.g., IP addresses)
-├── keypair.tf     # Generates an SSH key pair and saves the private key locally.
-├── SecGrp.tf     # Creates security groups (firewall rules)
-├── providers.tf  # Sets up the AWS provider – tells Terraform which cloud and region to use.
-├── Instance.tf  #Launches two EC2 instances: one in the public subnet, one in the private subnet.
-├── vpc.tf      # Creates the VPC, public & private subnets, internet gateway, and route tables.
-├── .gitignore  # 	Ignores sensitive or temporary files like the private key.
-└── README.md         # Project documentation
+- InstD.tf           # Instance data for the main entry point or an additional configuration
+- variables.tf      # Input variables
+- outputs.tf        # Output values (e.g., IP addresses)
+- keypair.tf     # Generates an SSH key pair and saves the private key locally.
+- SecGrp.tf     # Creates security groups (firewall rules)
+- providers.tf  # Sets up the AWS provider – tells Terraform which cloud and region to use.
+- Instance.tf  #Launches two EC2 instances: one in the public subnet, one in the private subnet.
+- vpc.tf      # Creates the VPC, public & private subnets, internet gateway, and route tables.
+- .gitignore  # 	Ignores sensitive or temporary files like the private key.
+- README.md         # Project documentation
 
 After writing the scripts for the deployment
 
 ## Deploy Commands
-terraform init
-terraform fmt
-terraform validate
-terraform plan
-terraform apply
+- terraform init
+- terraform fmt
+- terraform validate
+- terraform plan
+- terraform apply
 
+![image alt]
 
+Checking the aws console
+
+![image alt]
 
 
