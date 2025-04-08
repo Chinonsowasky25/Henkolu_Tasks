@@ -8,10 +8,10 @@ Run Hello-world and explain the output
 ![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_4_Docker/Screenshot%202025-03-29%20114946.png?raw=true)
 
 ## Output Explanation:
-Docker searches for the hello-world image locally.
-If not found, it pulls the image from Docker Hub.
-It creates and runs a container from the image.
-The container executes the built-in script, prints a message, and exits.
+- Docker searches for the hello-world image locally.
+- If not found, it pulls the image from Docker Hub.
+- It creates and runs a container from the image.
+- The container executes the built-in script, prints a message, and exits.
 
 ## Write a Dockerfile for a Flask or Node.js App
 
@@ -53,9 +53,9 @@ docker run -d -p 5000:5000 -v flask-data:/app chinonso-dock/flask-app
 
 
 ## Connect Two Containers Using a Custom Docker Network
-docker network create mynetwork
-Run a PostgreSQL Container in the Network
-Run Flask App in the Same Network
+- docker network create mynetwork
+- Run a PostgreSQL Container in the Network
+- Run Flask App in the Same Network
 
 ![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/master/Week_4_Docker/Screenshot%202025-03-29%20122849.png?raw=true)
 
