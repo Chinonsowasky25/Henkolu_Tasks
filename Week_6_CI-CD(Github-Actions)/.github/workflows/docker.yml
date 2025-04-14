@@ -2,9 +2,9 @@ name: Build and Push Docker Image
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "main" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "main" ]
 
 jobs:
   docker:
@@ -26,8 +26,8 @@ jobs:
       - name: Build and push Docker image
         uses: docker/build-push-action@v5
         with:
-          image: waskylala/demo-app
           context: .
           push: true
           registry: docker.io
-          tags: ${{ secrets.DOCKER_USERNAME }}/flask-app:latest
+         # tags: ${{ secrets.DOCKER_USERNAME }}/waskylala/demo-app:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/demo-app:latest
