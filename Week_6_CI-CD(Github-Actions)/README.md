@@ -19,10 +19,10 @@ DOCKER_PASSWORD
 
 First, In our repo, you clicked on action
 
-Image
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/020eac9ddc011b8e4a1abf9512a40c866759dae8/Week_6_CI-CD(Github-Actions)/DCKER1.png)
 click on set up workfow yourself
 
-Image
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/020eac9ddc011b8e4a1abf9512a40c866759dae8/Week_6_CI-CD(Github-Actions)/DCKER2.png)
 
 Create a .yml file(docker.yml) and write our script
 
@@ -46,6 +46,7 @@ EXPOSE 5000
 CMD ["python", "app.py"]
 
 This GitHub Actions workflow automates the process of building and pushing a Docker image to Docker Hub whenever there is a push or pull request to the main branch.
+
 ## GitHub Secrets Required
 Go to your repo → Settings → Secrets and variables → Actions → Add the following:
 
@@ -90,7 +91,10 @@ Make sure to have a requirements.txt file:
 
 Flask==0.10.1
 
-After commit, we check dockerhub to know if our image was pushed
+After commit, we check the workflow runs and checked if it passed
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/020eac9ddc011b8e4a1abf9512a40c866759dae8/Week_6_CI-CD(Github-Actions)/Screenshot%202025-04-14%20131417.png)
 
-Image
+Lastly, we check dockerhub to know if our image was pushed
+
+![image alt](https://github.com/Chinonsowasky25/Henkolu_Tasks/blob/020eac9ddc011b8e4a1abf9512a40c866759dae8/Week_6_CI-CD(Github-Actions)/Screenshot%20(67).png)
 
